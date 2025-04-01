@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import logo from "../assets/logo.jpg"; // Adjust the path as necessary
 import {motion} from "framer-motion";
 
 const Navbar = () => {
@@ -8,7 +9,7 @@ const Navbar = () => {
      className="flex items-center justify-between bg-black text-white px-10 py-6">
       {/* Logo Section */}
       <div className="flex items-center">
-        <img className="w-20" src="src/assets/logo.jpg" alt="Logo" />
+        <img className="w-20" src={logo} alt="Logo" />
       </div>
 
       {/* Icons Section */}
