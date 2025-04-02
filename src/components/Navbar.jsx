@@ -29,7 +29,7 @@ const Navbar = () => {
         >
           <FaGithub className="text-2xl hover:text-gray-400 transition duration-200" />
         </a>
-        <button className="bg-cyan-100 text-black" onClick={() => window.open("src/assets/Sabarish K.pdf", "_blank")}> Download CV</button>
+        <button className="bg-cyan-100 text-black" onClick={() => window.open("src/assets/Sabarish K Resume.pdf", "_blank")}> Download CV</button>
       </div>
     </nav>
   );
